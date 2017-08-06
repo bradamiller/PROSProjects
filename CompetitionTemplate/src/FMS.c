@@ -31,6 +31,7 @@ void teleoptask(void *parameter) {
 
 void autotask(void *parameter) {
 	autonomous();
+	delay(autoTime * 1000L);
 }
 
 /*
