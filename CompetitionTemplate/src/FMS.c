@@ -27,6 +27,7 @@ const long teleopTime = 120;
 
 void teleoptask(void *parameter) {
 	teleop();
+	delay(teleopTime * 1000L);
 }
 
 void autotask(void *parameter) {
